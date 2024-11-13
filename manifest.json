@@ -1,0 +1,24 @@
+{
+    "name": "PWA Offline",
+    "shor_name": "PWA Offline",
+    "description": "Aplicación Offline PWA.",
+    "start_url": "./",
+    "scope": "./",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#007bff",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "./images/logo-128.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "./images/logo-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        }
+    ]
+}
