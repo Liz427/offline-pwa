@@ -1,12 +1,9 @@
-const CACHE_NAME = 'todo-cache-v1';
+const CACHE_NAME = 'mi-pwa-cache-v1';
 const urlsToCache = [
     './',
     './index.html',
-    './style.css',
     './app.js',
-    './manifest.json',
-    './images/icon-128.png',
-    './images/icon-512.png'
+    'https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css'
 ];
 
 self.addEventListener('install', event => {
